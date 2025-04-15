@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+.pro{
+   height: 400px;
+   position: relative;
+   margin-bottom: 40px;
+overflow: hidden;
+transition: all 0.5s;
+
+}
+.pro:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    
+}
+.pro:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s;
+}
+.pro img{
+    height: 400px;
+    width: 100%;
+    transition: all 0.5s;
+}
+.shbtn{
+    padding: 7px 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(243, 4, 112)v.0
+    ;
+    position: absolute;
+    bottom: 10px;
+    left: 91px;
+}
+.shbtn:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.heading h2{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.heading h5{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.heading{
+    margin-bottom: 10px;
+}
+.news img{
+    height: 400px;
+    width: 100%
+}
+.news{
+    position: relative;
+}
+
+.pre {
+   
+    
+    height: 21px;
+    width: 12%;
+    left: 10px;
+    padding: 2px;
+}
+.pre h5{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;  
+}
+.td{
+    margin-bottom: 60px;
+}
+
+.ss{
+    width: 46px;
+    background-color: rgb(178, 210, 239);
+   display: flex;
+   justify-content: center; 
+}
+.ss h5{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 3px;
+}
+.trendy h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.trendy h6{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: red;
+    text-decoration: line-through;
+    margin-top: 2px;
+}
+.rate h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    display: inline;
+    text-decoration: none !important;
+    
+}
+.rate h5{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin-top: 1px;
+    color: darkgreen;
+}
+
+.rate{
+    display: flex;
+    gap: 10px;
+
+    text-align: center;
+
+}
+.bigimg{
+    width: 100%;
+    height: 500px;
+}
+.big{
+    margin-bottom: 50px;
+    position: relative;
+    height: 500px;
+}
+.texdata{
+    position: absolute;
+    width: 45%;
+    height: 60%;
+    background-color: white;
+    border-radius:10px 0px 0px 10px;
+    top: 20%;
+    right: 0;
+    padding:30px 20px ;
+
+}
+.texdata p{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-weight: 500;
+}
+.review{
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    background-color: rgb(243, 4, 112);
+  border-radius: 10px 10px 0px 0px ;
+    top: 10%;
+    right: 10%;
+    padding:10px 5px;
+    text-align: center;
+}
+.review h2{
+    font-size: 21px;
+     font-weight: 700;
+     font-family: "Open Sans", sans-serif;
+     color: black;
+}
+.heart{
+    width: 80% ;
+    margin: -20px 50px;
+    
+}
+.newc{
+    height: 400px;
+    position: relative;
+}
+.newc img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+    color: white;
+    position: absolute;
+    padding: 13px;
+}
+.overlay h5{
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+.overlay h3{
+  
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+.slideimg{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.phtext{
+    margin-bottom: 70px;
+}
+.insta h2 {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.insta h5{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+.insta{
+    margin-bottom: 10px;
+}
+.pngbx{
+    border: none
+
+}
+.pngbx img{
+    width: 65%;
+    margin: 23px;
+}
+.card-title{
+    font-size: 12px;
+}
+.ft{
+  border-top: 1px solid rgba(0, 0, 0, 0.144);
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+.ft h5{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    /* margin-left: 17%; */
+}
+ .ft h6{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 17px;
+ }
+ .ft li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+ }
+ .iconbx{
+    display: flex;
+    gap: 11px;
+ }
+ .iconbx img{
+    width: 11%;
+ }
+ .ft input{
+    padding: 10px 66px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 12px;
+ }
+ .ft button{
+    padding: 10px 133px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 12px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: none;
+ }
+ .icontext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .footer ul {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+ }
+
+
+
+ @media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+   
+    .logo{
+   
+        width: 35%;
+        }
+.carousel{
+    height: 200px;
+    margin-bottom: 20px;
+}
+.carousel img{
+    height: 200px;
+}
+.shbtn{
+    left: 37%;
+}
+
+.trandyimg{
+    height: 400px !important;
+}
+ .trendy{
+    margin-bottom: 10px;
+ } 
+ .rate h3{
+    margin-top: 0;
+ }
+ .rate h6{
+    margin-top: 0px;
+ }
+.trendy h1{
+    font-size: 25px;
+}
+.insta h2{
+    font-size: 25px;
+}
+.insta h5{
+    font-size: 14px;
+}
+
+.slideimg{
+    height: 150px;
+}
+
+.ft{
+    padding: 50px 0px !important;
+    text-align: center;
+}
+.iconbx{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+    .bigimg {
+        height: 300px; /* Reduce image height for mobile */
+    }
+
+    .big {
+        height: auto; /* Allow the container to adjust its height */
+    }
+
+    .texdata {
+        width: 80%; /* Increase width to take up more space */
+        height: auto; /* Allow the text container to adjust */
+        top: 30%; /* Adjust top position */
+        right: 10%; /* Slight padding from the right */
+        padding: 20px; /* Adjust padding */
+    }
+
+    .texdata p {
+        font-size: 16px; /* Reduce text size on mobile */
+        line-height: 28px; /* Adjust line height */
+    }
+
+    .review {
+        width: 80%; /* Make the review box wider */
+        top: 5%; /* Adjust top position */
+        right: 10%; /* Padding from the right */
+        padding: 10px;
+    }
+
+    .review h2 {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .heart {
+        width: 60%; /* Reduce heart image size */
+        margin: -10px 20px; /* Adjust margin */
+    }
+
+    .heading h2 {
+        font-size: 28px;  /* Smaller font for mobile */
+    }
+
+    .heading h5 {
+        font-size: 14px;  /* Adjust font size */
+    }
+
+    /* Adjust the layout of the items */
+    .col-xl-3 {
+        flex: 0 0 48%;  /* Two items per row */
+        max-width: 48%;
+    }
+
+    .news img {
+        height: 250px;  /* Resize image for mobile */
+    }
+
+    .pre {
+        width: 15%;  /* Adjust width of the discount box */
+    }
+
+    .trendy h1 {
+        font-size: 18px;  /* Adjust title font size */
+    }
+
+    .rate h6 {
+        font-size: 12px;  /* Reduce price strikethrough text */
+    }
+
+    .rate h3 {
+        font-size: 16px;  /* Adjust price font size */
+    }
+    .icontext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .pngbx img{
+        width: 29%;
+        margin: 23px;
+    }
+    .ft h5{
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        
+    }
+     .ft h6{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+      
+     }
+     .ft input {
+       
+        padding: 8px 59px;
+
+     }
+     .ft button {
+       
+        padding: 8px 127px;
+
+     }
+}
+
+
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+    .bigimg {
+        height: 250px; 
+    }
+
+    .texdata {
+        width: 90%;
+        top: 20%;
+        right: 5%;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .texdata p {
+        font-size: 14px; /* Further reduce text size */
+        line-height: 24px; /* Adjust line height */
+    }
+
+    .review {
+        width: 64%;
+        top: 10%;
+        right: 17%;
+        padding: 8px;
+    }
+
+    .review h2 {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .heart {
+        width: 50%; /* Reduce heart image size further */
+        margin: -10px 77px; /* Adjust margin */
+    }
+
+    .heading h2 {
+        font-size: 24px;  /* Further reduce font size */
+    }
+
+    .heading h5 {
+        font-size: 12px;  /* Smaller subheading font size */
+    }
+
+    /* Adjust the layout to a single column for mobile */
+    .col-xl-3 {
+        flex: 0 0 100%;  /* Full-width items on very small screens */
+        max-width: 100%;
+    }
+
+    .news img {
+        height: 200px;  /* Further reduce image height */
+    }
+
+    .ss, .pre {
+        font-size: 12px;  /* Reduce font size of Sale and Discount boxes */
+    }
+
+    .pre {
+        width: 18%;  /* Adjust width for the small screen */
+    }
+
+    .trendy h1 {
+        font-size: 16px;  /* Further reduce title font size */
+    }
+
+    .rate h6 {
+        font-size: 12px;  /* Smaller text for original price */
+    }
+
+    .rate h3 {
+        font-size: 14px;  /* Adjust price font size */
+    }
+    .icontext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .pngbx img{
+        width: 29%;
+        margin: 23px;
+    }
+    .footer{
+        justify-content: start;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+    .ft h5{
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+     .ft h6{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+     }
+}
